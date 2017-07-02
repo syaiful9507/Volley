@@ -18,7 +18,7 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.HashMap;
 public class AdapterList extends RecyclerView.Adapter<AdapterList.ViewHolder> {
-    Context context;
+   Context context;
     ImageSwitcher imageSwitcher;
     ArrayList<HashMap<String, String >> list_data;
     public AdapterList(RecycleView mainActivity, ArrayList<HashMap<String, String >>list_data){
@@ -97,5 +97,6 @@ public class AdapterList extends RecyclerView.Adapter<AdapterList.ViewHolder> {
 
 
 
+//updated
 
 }
