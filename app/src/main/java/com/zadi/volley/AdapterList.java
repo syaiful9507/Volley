@@ -19,6 +19,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 public class AdapterList extends RecyclerView.Adapter<AdapterList.ViewHolder> {
     Context context;
+    ImageSwitcher imageSwitcher;
     ArrayList<HashMap<String, String >> list_data;
     public AdapterList(RecycleView mainActivity, ArrayList<HashMap<String, String >>list_data){
         this.context = mainActivity;
@@ -32,18 +33,26 @@ public class AdapterList extends RecyclerView.Adapter<AdapterList.ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(AdapterList.ViewHolder holder, int position) {
+    public void onBindViewHolder(AdapterList.ViewHolder holder, final int position) {
        /* Picasso.with(context.getApplicationContext())
                 .load("http://200.200.200.197/app_blogvolley/img/" + list_data.get(position).get("gambar"))
                 .error(R.drawable.no_available)
                 .into(holder.imghape);*/
         Glide.with(context)
-                .load("http://192.168.43.203/app_blogvolley/img/" + list_data.get(position).get("gambar"))
+                .load("http://192.168.43.228/app_blogvolley/img/" + list_data.get(position).get("gambar"))
                 .crossFade()
                 .placeholder(R.drawable.no_available)
                 .into(holder.imghape);
        // holder.txthape.setText(list_data.get(position).get("merk"));
-        
+        /*holder.imghape.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(context, "satu" +list_data.get(position), Toast.LENGTH_SHORT).show();
+               // imageSwitcher.setImageResource(list_data.get(position));
+
+            }
+        });*/
+        HashMap<String, String> data = list_data.get(position);
     }
 
     @Override
@@ -53,12 +62,40 @@ public class AdapterList extends RecyclerView.Adapter<AdapterList.ViewHolder> {
     public class ViewHolder extends RecyclerView.ViewHolder {
        // TextView txthape;
         ImageView imghape;
+        ImageSwitcher imageSwitcher;
 
-        public ViewHolder(View itemView) {
+        public ViewHolder(final View itemView) {
             super(itemView);
+            LayoutInflater lInflater = LayoutInflater.from(context);
+            View v = lInflater.inflate(R.layout.main, null);
 
          // txthape = (TextView) itemView.findViewById(R.id.txthape);
             imghape = (ImageView) itemView.findViewById(R.id.imghp);
+            imageSwitcher = (ImageSwitcher)v.findViewById(R.id.switcher);
+            imghape.setOnClickListener(new View.OnClickListener(){
+
+                @Override
+                public void onClick(View view) {
+                       // imageSwitcher.setImageResource(list_data.get());
+                    int position = list_data.size();
+                    String a = String.valueOf(position);
+                  // String pst = list_data.get(position);
+                    klick(a);
+
+                }
+            });
+
+        }
+        public void klick (String list){
+            int position = list_data.indexOf(list);
+            HashMap<String, String> data = list_data.get(position);
+            int dt = Integer.parseInt(String.valueOf(data));
+            imageSwitcher.setImageResource(dt);
+
         }
     }
+
+
+
+
 }
