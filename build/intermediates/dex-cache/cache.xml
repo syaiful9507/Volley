@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Muh. Zadi\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\glide-3.7.0_5a7345e66368aeef7fd4680aae1acd22396a09fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID_STUDIO\volley\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_46c58029ac2cddbf5d9b8d188f8e56a8fa2762ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID_STUDIO\volley\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c47fb4ed0f79be5c7fab59b16f484b758d5a231c">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\instant-run_e1fd7e117362e842ea1760139e599259e0e4bf42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Muh. Zadi\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\volley-integration\1.4.0\aa52998c139a242251bd52ec4e2ee55e0cfbf055\volley-integration-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="aa52998c139a242251bd52ec4e2ee55e0cfbf055">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\volley-integration-1.4.0_e485cc8a51c8bcc3982bb8d8c73759838255b2f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID_STUDIO\volley\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4add8aa95c9f4e9a2ad64b7e2bf08e97e28955c1">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.1.1_e6292c250f30e524f5d63783241f3620e4e86fd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID_STUDIO\volley\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="02e44f43f603adb445aa37bb411c195053a70f4a">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_8b40a3ef8813430a57dae7aa6e5d89a4aafb075e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Muh. Zadi\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.8\ec0f15c77ddd390e5ac514ac72ebbb9f2e0e31e2\library-1.0.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ec0f15c77ddd390e5ac514ac72ebbb9f2e0e31e2">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\library-1.0.8_5cb666d5ea5e3fee43639795324017194e9ed294.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID_STUDIO\volley\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.1.1_71721b84f8de82332ca3d79da3a3684d3966f6b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID_STUDIO\volley\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.1.1_eff9f0ea068e3b4294c265a774d271101e9c0627.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID_STUDIO\volley\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.1.1_4cbf2383dc148d3d9a561b63c4d32d8e091ac465.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID_STUDIO\volley\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.1.1_0961eeb29469c7ff613bcb9c29c45b458230b9cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Muh. Zadi\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_63b21192397d3ab24a80ef16d8338683b5bc9761.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SDK\sdk2\sdk2\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\support-annotations-24.1.1_8886a5288db10a5160bcb61af4208e252f80c559.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID_STUDIO\volley\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.1.1_b4fb9c041fdd1f9ccfd2e5336f33cf11f73bd8be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID_STUDIO\volley\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="E:\ANDROID_STUDIO\volley\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.1_a0823a2c92fdd5977be1f5cccbf47efd1b6558f8.jar" />
+    </item>
+
+</items>
