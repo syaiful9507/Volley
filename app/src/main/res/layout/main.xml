@@ -6,27 +6,28 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_kosakata"
     tools:context="com.zadi.volley.RecycleView">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageSwitcher
+            android:id="@+id/switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/no_available"
+            />
+    </LinearLayout>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/lvhape"
         android:layout_width="match_parent"
         android:background="@drawable/footer"
         android:layout_height="80dp"
         android:layout_alignParentBottom="true" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
-        <ImageSwitcher
-        android:id="@+id/switcher1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/switcher"
-        />
-    </LinearLayout>
 
+<!--updated-->
 
 
 </RelativeLayout>
